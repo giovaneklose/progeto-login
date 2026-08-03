@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+:root {
+    --cor1--: #0B6718;
+    --cor2--: #646663;
+}
+
+* {
+    font-family: sans-serif;
+
+    padding: 0px;
+    margin: 0px;
+}
+
+body, html {
+    position: relative;
+
+    background-color: var(--cor1--);
+
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    position: absolute;
+
+    background-color: var(--cor2--);
+    color: #ffffff;
+
+    width: 350px;
+    height: 400px;
+    border-radius: 20px;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+}
+
+#img{
+    background: black url('imagens/imagen-login.jpg') ;
+}
+
+#form {
+    position: absolute;
+
+    text-align: center;
+    width: 250px;
+    padding: 20px;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+}
+
+#form h1 {
+    font-weight: bolder;
+}
+
+#form p{
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+
+}
+
+form input {
+    margin: 20px 0px 20px 0px;
+}
+
+
+
