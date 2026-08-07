@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/medias.css">
 </head>
@@ -22,14 +23,23 @@
 
                 <form action="iem" method="post">
 
-                    <label for="iem">Gmail -</label>
-                    <input type="email" name="em" id="iem">
+                    <div class="login">
+                        <span class="material-symbols-outlined">person</span>
+                        <input type="email" name="em" id="iem">
+                        <label for="iem">Gmail -</label>
+                    </div>
 
-                    <label for="ipas">Senha -</label>
-                    <input type="password" name="pas" id="ipas">
+                    <div class="login">
+                        <span class="material-symbols-outlined">key</span>
+                        <input type="password" name="pas" id="ipas">
+                        <label for="ipas">Senha -</label>
+                    </div>
 
-                    <input type="reset" value="Limpar">
                     <input type="submit" value="Enviar">
+                    <a href="esqueci.html">
+                        Esqueci a senha
+                        <span class="material-symbols-outlined">mail</span>
+                    </a>
 
                 </form>
             </div>
